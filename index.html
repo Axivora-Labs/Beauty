@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxe Beauty Studio — Premium Beauty, Skincare &amp; Hair Atelier</title>
+<meta name="description" content="Luxe Beauty Studio is a luxury beauty salon &amp; spa offering hair styling, hydra facials, bridal makeup, nail art and massage rituals by certified specialists. Book your slot online today.">
+<meta name="keywords" content="luxury salon, beauty spa, bridal makeup, hair salon, hydra facial, nail studio, spa massage, INR pricing">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://beautylake.pages.dev/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#111111">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Luxe Beauty Studio — Beauty. Confidence. Elegance.">
+<meta property="og:description" content="Premium beauty, hair, skincare, bridal makeup and spa treatments crafted by certified professionals.">
+<meta property="og:image" content="images/hero/hero-bg.png">
+<meta property="og:url" content="https://beautylake.pages.dev/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Luxe Beauty Studio",
+  "image": "images/hero/hero-bg.png",
+  "priceRange": "₹₹₹",
+  "telephone": "+91-9876543210",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "24 Ivory Lane",
+    "addressLocality": "Beverly Hills",
+    "addressRegion": "CA",
+    "postalCode": "90210",
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Sa 09:00-20:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "812"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div class="preloader" id="preloader"><div class="preloader-mark">Luxe Beauty Studio</div></div>
+
+<!-- ================= CUSTOM CURSOR ================= -->
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="name">Luxe <em>Beauty</em> Studio</span>
+      <span class="tag">Beauty · Confidence · Elegance</span>
+    </a>
+    <nav class="nav-menu" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Google Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#team">Team</a>
+      <a href="#offers">Offers</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+      </button>
+      <a href="#booking" class="btn btn-dark btn-sm" style="display:none" id="navBookBtn">Book Appointment</a>
+      <button class="burger" id="burgerBtn" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <button id="mobileCloseBtn" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="mobile-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing Packages</a>
+    <a href="#reviews">Google Reviews</a>
+    <a href="#gallery">Gallery Portfolio</a>
+    <a href="#team">Our Team</a>
+    <a href="#offers">Special Offers</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact &amp; Hours</a>
+  </div>
+  <div class="mobile-cta"><a href="#booking" class="btn btn-gold btn-block">Book Appointment</a></div>
+</div>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="images/hero/hero-bg.png" alt="Elegant interior of Luxe Beauty Studio salon">
+  </div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Est. 2018 · Atelier Standard</div>
+    <h1>Reveal Your Most <em>Beautiful</em> Self</h1>
+    <p>Premium hair, skincare, bridal makeup and spa rituals crafted by certified specialists. Easy online booking for mobile and desktop.</p>
+    <div class="hero-actions">
+      <a href="#booking" class="btn btn-gold">Book Appointment
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#services" class="btn btn-outline" style="color:#F3EFE6;border-color:rgba(255,255,255,0.3);">View Services</a>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- ================= MARQUEE (signature) ================= -->
+<div class="marquee-band" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack"></div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <div class="badge"><b>8+</b><span>Years of Craft</span></div>
+      <div class="frame-main"><img src="images/about/about-main.png" alt="Stylist attending to a client at Luxe Beauty Studio"></div>
+      <div class="frame-float"><img src="images/about/about-float.png" alt="Skincare treatment products arranged on a marble counter"></div>
+    </div>
+    <div class="about-content reveal">
+      <div class="eyebrow">Our Story</div>
+      <h2>Where precision meets quiet luxury</h2>
+      <p class="lead">Luxe Beauty Studio was founded on a simple belief — beauty is a form of self‑respect, and it deserves an atelier‑level standard of care.</p>
+      <p>What began as a single suite has grown into a full‑service studio trusted by discerning clients. Every treatment is performed by certified specialists using clean, professional‑grade formulations.</p>
+      <p>Our mission is unchanged since day one: to help every client leave not just looking refined, but feeling unmistakably confident.</p>
+      <div class="stat-row">
+        <div class="stat"><b class="mono-num" data-count="5000">0</b><span>Happy Clients</span></div>
+        <div class="stat"><b class="mono-num" data-count="8">0</b><span>Years Experience</span></div>
+        <div class="stat"><b class="mono-num" data-count="15">0</b><span>Experts</span></div>
+        <div class="stat"><b>4.9★</b><span>Google Rating</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">What We Offer</div>
+      <h2>Signature Services</h2>
+      <p>Five specialised studios under one roof — each treatment tailored to you and delivered by a certified expert.</p>
+    </div>
+    <div class="tabs tc" id="serviceTabs" style="justify-content:center;"></div>
+    <div class="service-grid" id="serviceGrid"></div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Packages</div>
+      <h2>Simple, Transparent Pricing (₹)</h2>
+      <p style="margin:0 auto;">Curated packages in Indian Rupees (INR) — from a monthly refresh to full bridal preparation.</p>
+    </div>
+    <div class="price-grid" id="priceGrid"></div>
+  </div>
+</section>
+
+<!-- ================= GOOGLE REVIEWS SECTION ================= -->
+<section class="google-reviews" id="reviews">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="gr-badge-hero">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+        <span class="gr-score">4.9 Rating</span>
+        <div class="gr-stars-inline">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9L6 21l1.7-7L2.3 9.2l7.1-.6z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9L6 21l1.7-7L2.3 9.2l7.1-.6z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9L6 21l1.7-7L2.3 9.2l7.1-.6z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9L6 21l1.7-7L2.3 9.2l7.1-.6z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9L6 21l1.7-7L2.3 9.2l7.1-.6z"/></svg>
+        </div>
+        <span class="gr-count">(812+ Reviews on Google)</span>
+      </div>
+      <h2>What Clients Say On Google</h2>
+      <p style="margin:0 auto;">Real feedback from verified clients who visit Luxe Beauty Studio.</p>
+    </div>
+    
+    <div class="google-reviews-grid" id="googleReviewsGrid"></div>
+
+    <div class="gr-cta-box reveal">
+      <a href="https://maps.google.com" target="_blank" rel="noopener" class="gr-btn-google">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+        Write a Review on Google
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Portfolio</div>
+      <h2>Recent Transformations</h2>
+      <p style="margin:0 auto;">A glimpse into our studio — real work, real results, shot on-site.</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+
+    <div class="ba-wrap reveal">
+      <div class="section-head center" style="margin-bottom:36px;">
+        <div class="eyebrow tc" style="justify-content:center;">Before &amp; After</div>
+        <h2 style="font-size:30px;">Drag to Compare</h2>
+      </div>
+      <div class="ba-slider" id="baSlider">
+        <img class="ba-after" src="images/gallery/after-skin.png" alt="After skincare treatment result">
+        <img class="ba-before" id="baBeforeImg" src="images/gallery/before-skin.png" alt="Before skincare treatment result">
+        <span class="ba-tag before">Before</span>
+        <span class="ba-tag after">After</span>
+        <div class="ba-handle" id="baHandle"></div>
+        <input type="range" min="0" max="100" value="50" id="baRange" aria-label="Drag to compare before and after">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEAM ================= -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Meet The Experts</div>
+      <h2>Our Artists</h2>
+      <p style="margin:0 auto;">Certified specialists, each trained internationally in their craft.</p>
+    </div>
+    <div class="team-grid" id="teamGrid"></div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Client Love</div>
+      <h2>Words From Our Clients</h2>
+    </div>
+    <div class="t-slider reveal">
+      <div class="t-track" id="tTrack"></div>
+      <div class="t-controls">
+        <button class="t-arrow" id="tPrev" aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <div class="t-dots" id="tDots"></div>
+        <button class="t-arrow" id="tNext" aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OFFERS ================= -->
+<section class="offers" id="offers">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Limited Time</div>
+      <h2>Current Offers</h2>
+    </div>
+    <div class="offer-grid" id="offerGrid"></div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Good To Know</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-wrap reveal" id="faqWrap"></div>
+  </div>
+</section>
+
+<!-- ================= BOOKING ================= -->
+<section class="booking" id="booking">
+  <div class="container booking-grid">
+    <div class="booking-info reveal">
+      <div class="eyebrow">Reserve Your Visit</div>
+      <h2>Book Your Appointment</h2>
+      <p>Tell us what you're dreaming of and our concierge will confirm your slot within two hours.</p>
+      <ul class="booking-points">
+        <li><span class="num">01</span><div><b>Choose your treatment</b><span>Select from hair, skin, makeup, nails or spa.</span></div></li>
+        <li><span class="num">02</span><div><b>Pick a date &amp; time</b><span>We'll hold your preferred slot for 24 hours.</span></div></li>
+        <li><span class="num">03</span><div><b>Get confirmation</b><span>Receive an instant confirmation call &amp; SMS.</span></div></li>
+      </ul>
+    </div>
+    <div class="booking-form reveal">
+      <form id="bookingForm">
+        <div class="form-row">
+          <div class="field"><label for="bkName">Full Name</label><input id="bkName" type="text" placeholder="Pooja Sharma" required></div>
+          <div class="field"><label for="bkPhone">Phone Number</label><input id="bkPhone" type="tel" placeholder="+91 98765 43210" required></div>
+        </div>
+        <div class="field"><label for="bkEmail">Email Address</label><input id="bkEmail" type="email" placeholder="pooja@example.com" required></div>
+        <div class="form-row">
+          <div class="field">
+            <label for="bkService">Service</label>
+            <select id="bkService" required>
+              <option value="">Select a service</option>
+              <option>Precision Hair Cut (₹799)</option>
+              <option>Signature Hair Styling (₹999)</option>
+              <option>Hydra Facial (₹2,499)</option>
+              <option>Anti-Aging Facial (₹2,999)</option>
+              <option>Bridal Makeup (₹14,999)</option>
+              <option>HD / Party Makeup (₹2,499)</option>
+              <option>Nail Art &amp; Gel Polish (₹899)</option>
+              <option>Body Spa &amp; Massage (₹2,499)</option>
+            </select>
+          </div>
+          <div class="field"><label for="bkDate">Preferred Date</label><input id="bkDate" type="date" required></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="bkTime">Preferred Time</label><input id="bkTime" type="time" required></div>
+          <div class="field"><label for="bkRequest">Special Request</label><input id="bkRequest" type="text" placeholder="Optional"></div>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block">Book Appointment Now</button>
+        <p class="form-note">No upfront payment required — we confirm availability first.</p>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>Booking Request Received!</h3>
+        <div class="bk-ref-badge" id="bkRefBadge" style="display:inline-block; margin: 12px 0 16px; padding: 6px 18px; background: var(--gold-soft); color: var(--ink); border-radius: 100px; font-size: 13px; font-weight: 700; border: 1px solid var(--gold);">
+          Booking ID: <span id="bkRefCode">LX-84920</span>
+        </div>
+        <p>Thank you <strong id="bkConfirmName"></strong>! Our concierge team has reserved your request. Confirm instantly on WhatsApp or await our call within 2 hours.</p>
+        <a id="bkWaBtn" href="#" target="_blank" rel="noopener" class="btn btn-gold btn-block" style="margin-top: 20px;">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.34a9.86 9.86 0 004.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7-1.87-1.88-4.35-2.9-7.01-2.9zm0 18.13c-1.5 0-2.98-.4-4.26-1.16l-.3-.18-3.16.83.84-3.07-.2-.32a8.18 8.18 0 01-1.26-4.32c0-4.53 3.7-8.22 8.25-8.22 2.2 0 4.27.86 5.83 2.42a8.17 8.17 0 012.41 5.82c0 4.53-3.7 8.2-8.15 8.2zm4.5-6.15c-.24-.13-1.47-.73-1.7-.81-.23-.08-.4-.13-.56.13-.17.25-.65.81-.8.98-.14.17-.29.19-.53.06-.24-.12-1.02-.38-1.94-1.21-.72-.64-1.2-1.43-1.35-1.68-.14-.25-.02-.38.11-.5.11-.12.24-.29.37-.44.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.36-.77-1.86-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08s.9 2.41 1.02 2.58c.13.17 1.77 2.7 4.28 3.79.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.46-.28z"/></svg>
+          Confirm via WhatsApp Instantly
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow tc" style="justify-content:center;">Get In Touch</div>
+      <h2>Visit The Studio</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-map">
+        <iframe title="Luxe Beauty Studio location map" loading="lazy" src="https://www.google.com/maps?q=Mumbai&output=embed"></iframe>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.5-7-11a7 7 0 0114 0c0 4.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+          <div><h4>Studio Address</h4><p>24 Ivory Lane, Luxury Avenue, Mumbai</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006.3 6.3l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2.1z"/></svg></div>
+          <div><h4>Phone / WhatsApp</h4><p>+91 98765 43210</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg></div>
+          <div><h4>Email</h4><p>hello@luxebeautystudio.com</p></div>
+        </div>
+        <div class="contact-card" style="flex-direction:column;">
+          <div style="display:flex;gap:18px;align-items:center;width:100%;">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+            <h4 style="margin:0;">Studio Hours</h4>
+          </div>
+          <div style="width:100%;margin-top:14px;">
+            <div class="contact-hours"><span>Mon — Sat</span><b>9:00 AM – 8:00 PM</b></div>
+            <div class="contact-hours"><span>Sunday</span><b>10:00 AM – 5:00 PM</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo"><span class="name">Luxe <em>Beauty</em> Studio</span></a>
+        <p>A premium beauty salon &amp; spa dedicated to precision craft, clean formulations, and quiet luxury.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.4" cy="6.6" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8.5h2V5h-2a4 4 0 00-4 4v2H9v3.5h2V21h3.5v-6.5H17l.5-3.5h-3V9a1 1 0 011-1z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="3.5"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <div class="footer-links">
+          <a href="#about">About Us</a><a href="#services">Services</a><a href="#pricing">Pricing Packages</a><a href="#reviews">Google Reviews</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <div class="footer-links">
+          <a href="#services">Hair Studio</a><a href="#services">Skin Care</a><a href="#services">Bridal Makeup</a><a href="#services">Nail Studio</a><a href="#services">Spa &amp; Massage</a>
+        </div>
+      </div>
+      <div class="footer-col newsletter">
+        <h5>Stay In The Loop</h5>
+        <p>Subscribe for seasonal offers, beauty edits &amp; studio news.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your email address" required aria-label="Email address">
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="yearNow"></span> Luxe Beauty Studio. All rights reserved.</span>
+      <div class="legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp float -->
+<a class="wa-float" href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.34a9.86 9.86 0 004.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.13-2.9-7-1.87-1.88-4.35-2.9-7.01-2.9zm0 18.13c-1.5 0-2.98-.4-4.26-1.16l-.3-.18-3.16.83.84-3.07-.2-.32a8.18 8.18 0 01-1.26-4.32c0-4.53 3.7-8.22 8.25-8.22 2.2 0 4.27.86 5.83 2.42a8.17 8.17 0 012.41 5.82c0 4.53-3.7 8.2-8.15 8.2zm4.5-6.15c-.24-.13-1.47-.73-1.7-.81-.23-.08-.4-.13-.56.13-.17.25-.65.81-.8.98-.14.17-.29.19-.53.06-.24-.12-1.02-.38-1.94-1.21-.72-.64-1.2-1.43-1.35-1.68-.14-.25-.02-.38.11-.5.11-.12.24-.29.37-.44.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.36-.77-1.86-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08s.9 2.41 1.02 2.58c.13.17 1.77 2.7 4.28 3.79.6.26 1.06.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.46-.28z"/></svg>
+</a>
+
+<!-- Back to top -->
+<button class="top-btn" id="topBtn" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+
+<!-- Mobile Sticky Bottom Action Bar -->
+<div class="mobile-bottom-bar" id="mobileBottomBar">
+  <a href="tel:+919876543210" class="m-bar-btn m-bar-btn-secondary">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.5 2.1L8 9.7a16 16 0 006.3 6.3l1.2-1.2a2 2 0 012.1-.5c.9.3 1.8.5 2.7.6a2 2 0 011.7 2.1z"/></svg>
+    Call Us
+  </a>
+  <a href="#booking" class="m-bar-btn m-bar-btn-primary">
+    Book Now
+  </a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lightbox-nav prev" id="lbPrev" aria-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <img id="lbImg" src="" alt="Gallery preview">
+  <button class="lightbox-nav next" id="lbNext" aria-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 6l6 6-6 6"/></svg></button>
+</div>
+
+<!-- Scripts -->
+<script src="js/main.js" defer></script>
+</body>
+</html>
